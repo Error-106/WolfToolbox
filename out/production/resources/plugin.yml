@@ -1,0 +1,16 @@
+name: WolfToolBox
+version: '1.0'
+main: com.xionglongztz.wolftoolbox
+api-version: '1.21'
+authors: [ xionglongztz ]
+description: 随身工作台和末影箱插件
+commands:
+  enderchest:
+    description: 打开你的末影箱
+  workbench:
+    description: 打开工作台
+permissions:
+  wolftoolbox.enderchest:
+    description: 允许用户打开末影箱
+  wolftoolbox.workbench:
+    description: 允许用户打开合成台
