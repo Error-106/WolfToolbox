@@ -31,3 +31,7 @@ build/
 
 #ignore gradle
 .gradle/
+gradle/
+
+#ignore bin
+bin/
