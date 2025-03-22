@@ -1,16 +1,56 @@
-name: WolfToolBox
-version: '1.0'
+name: WolfToolbox
+version: '1.5'
 main: com.xionglongztz.wolftoolbox
 api-version: '1.21'
 authors: [ xionglongztz ]
-description: 随身工作台和末影箱插件
+description: 小狼工具箱 - 提供服务器部分有用的功能扩展
+aliases: [ wolftoolbox ] #命令别名
 commands:
   enderchest:
-    description: 打开你的末影箱
+    description: 打开末影箱
+    #aliases: [ec]
   workbench:
     description: 打开工作台
+    #aliases: [wtb workbench]
+    #usage: /wtb workbench
+  anvil:
+    description: 打开铁砧
+  cartographytable:
+    description: 打开制图台
+  loom:
+    description: 打开织布机
+  stonecutter:
+    description: 打开切石机
+  smithingtable:
+    description: 打开锻造台
+  grindstone:
+    description: 打开砂轮
+  wtbhelp:
+    description: 显示帮助信息
+  fly:
+    description: 切换飞行模式
+  suicide:
+    description: 自杀
 permissions:
   wolftoolbox.enderchest:
     description: 允许用户打开末影箱
   wolftoolbox.workbench:
     description: 允许用户打开合成台
+  wolftoolbox.anvil:
+    description: 允许用户打开铁砧
+  wolftoolbox.cartographytable:
+    description: 允许用户打开制图台
+  wolftoolbox.loom:
+    description: 允许用户打开织布机
+  wolftoolbox.stonecutter:
+    description: 允许用户打开切石机
+  wolftoolbox.smithingtable:
+    description: 允许用户打开切石机
+  wolftoolbox.grindstone:
+    description: 允许用户打开切石机
+  wolftoolbox.suicide:
+    description: 自杀权限
+  wolftoolbox.fly:
+    description: 切换飞行权限
+  wolftoolbox.admin:
+    description: 管理员权限
