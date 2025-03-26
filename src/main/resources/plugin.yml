@@ -1,5 +1,5 @@
 name: WolfToolbox
-version: '1.5'
+version: '2.0'
 main: com.xionglongztz.wolftoolbox
 api-version: '1.21'
 authors: [ xionglongztz ]
@@ -25,12 +25,16 @@ commands:
     description: 打开锻造台
   grindstone:
     description: 打开砂轮
-  wtbhelp:
+  wthelp:
     description: 显示帮助信息
   fly:
     description: 切换飞行模式
   suicide:
     description: 自杀
+  gm:
+    description: 切换游戏模式
+  sudo:
+    description: 让指定玩家执行指令或发言
 permissions:
   wolftoolbox.enderchest:
     description: 允许用户打开末影箱
