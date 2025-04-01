@@ -1,6 +1,6 @@
 name: WolfToolbox
 version: '2.0'
-main: com.xionglongztz.wolftoolbox
+main: com.xionglongztz.wolfToolbox
 api-version: '1.21'
 authors: [ xionglongztz ]
 description: 小狼工具箱 - 提供服务器部分有用的功能扩展
@@ -8,7 +8,7 @@ aliases: [ wolftoolbox ] #命令别名
 commands:
   enderchest:
     description: 打开末影箱
-    #aliases: [ec]
+    aliases: [ender]
   workbench:
     description: 打开工作台
     #aliases: [wtb workbench]
@@ -31,10 +31,15 @@ commands:
     description: 切换飞行模式
   suicide:
     description: 自杀
-  gm:
-    description: 切换游戏模式
   sudo:
-    description: 让指定玩家执行指令或发言
+    description: 让指定玩家执行指令
+  sm:
+    description: 让指定玩家发言
+  hito:
+    description: 立即获取一条一言
+  wt:
+    description: 小狼工具箱主指令
+    aliases: [wtb]
 permissions:
   wolftoolbox.enderchest:
     description: 允许用户打开末影箱
@@ -56,5 +61,7 @@ permissions:
     description: 自杀权限
   wolftoolbox.fly:
     description: 切换飞行权限
+  wolftoolbox.cm:
+    description: 控制台发消息权限
   wolftoolbox.admin:
     description: 管理员权限
